@@ -1,6 +1,6 @@
 .SideDrawer {
   position: fixed;
-  width: 280px;
+  width: 150px;
   max-width: 70%;
   height: 100%;
   left: 0;
@@ -17,7 +17,7 @@
     display: none;
   }
 }
-.Opem {
+.Open {
   transform: translateX(0);
 }
 
@@ -27,4 +27,5 @@
 
 .Logo {
   height: 11%;
+  margin-bottom: 32px;
 }
