@@ -16,12 +16,15 @@
   .SideDrawer {
     display: none;
   }
+}
+.Opem {
+  transform: translateX(0);
+}
 
-  .Opem {
-    transform: translateX(0);
-  }
+.Close {
+  transform: translateX(-100%);
+}
 
-  .Close {
-    transform: translateX(-100%);
-  }
+.Logo {
+  height: 11%;
 }
