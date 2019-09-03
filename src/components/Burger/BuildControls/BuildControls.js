@@ -1,6 +1,7 @@
 import React from 'react';
 import BuildControl from './BuildControl/BuildControl'
 import classes from './BuildControls.css'
+import PropTypes from 'prop-types';
 
 const controls = [
   {label: 'Salad', type: 'salad'},
@@ -28,5 +29,11 @@ const buildControls = (props) => (
     </button>
   </div>
 )
+
+buildControls.propTypes = {
+  purchasable: PropTypes.bool.isRequired,
+  ordered: PropTypes.func.isRequired,
+  price: PropTypes.number.isRequired
+}
 
 export default buildControls;
