@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-import Aux from '../../../hoc/Aux';
+import Aux from '../../../hoc/Aux/Aux';
 import Button from '../../UI/Button/Button';
 import PropTypes from 'prop-types';
 
 class OrderSummary extends Component {
 
-  componentDidUpdate() {
-    console.log('[OrderSummary] Didupdate');
-  }
-
   render() {
+
     const ingredientSummary = Object.keys(this.props.ingredients)
     .map(igKey => {
       return (
@@ -18,6 +15,7 @@ class OrderSummary extends Component {
         </li>
       )
     });
+    
     return (
       <Aux>
         <h3>Your order</h3>
