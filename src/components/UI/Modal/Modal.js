@@ -5,7 +5,7 @@ import Backdrop from '../Backdrop/Backdrop'
 import PropTypes from 'prop-types';
 
 
-// This could be a functional component, doesn't br a class
+// This could be a functional component, doesn't be a class
 class Modal extends Component {
 
   shouldComponentUpdate(nextProps, nextState) {
